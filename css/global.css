@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&family=Montserrat:wght@600&family=Nunito+Sans:wght@300;400;700;900&family=Quicksand&family=Source+Sans+Pro&display=swap');
+
+html {scroll-behavior:smooth;}
+body {background:#fff; color:#000; font-family: 'Nunito Sans', sans-serif; font-size:17px; font-weight:400; line-height:1.6;}
+
+.font-Kaiseiopti {font-family: 'Kaisei Opti', serif;}
+.font-nunitosans {font-family: 'Nunito Sans', sans-serif;}
+.font-quicksand {font-family: 'Quicksand', sans-serif;}  
+.font-source{font-family: 'Source Sans Pro', sans-serif;}
+.font-montserrat{font-family: 'Montserrat', sans-serif;}
+
+.animate__slower {
+  --animate-duration: 10000s !important;
+  --animate-delay: 10000s !important;
+}
+	
+*, *:focus {outline:none !important; transition:all 0.3s ease 0s;}
+
+a {text-decoration:none !important; color:#000;} a:hover{color:#dae9ec;}
+p{margin-bottom:25px;} .nomrgn{margin:0px !important;}
+
+.breadcrumb{color:#818181; margin:0px; background-color:transparent;padding:0 0 15px; font-size:12px; border-bottom:solid 1px #dddddd;}
+.breadcrumb>li+li:before{content:"\27A4";color:#818181; margin:0 10px;}
+.breadcrumb a{color:#487201;}
+
+/******* Helpers ********************************************************************/
+.ImgFade{background-color:#000; border-radius:10px !important;}
+.ImgFade img{opacity: 0.3; filter: alpha(opacity=30); border-radius:10px !important; /* For IE8 and earlier */}
+
+hr{background-color:#ebebeb; margin:64px 0px 28px 0px;}
+
+/***************************/
+.btn{moz-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in;text-decoration:none !important; font-weight:600; font-size:15px; padding:13px 35px; font-family: 'Poppins', sans-serif; vertical-align:top; border-radius:10px; text-transform:capitalize;}
+
+
+.gradient-button {
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	padding:8px 60px;
+	border-radius: 30px; border-color:#cbcbcb;
+}
+
+
+.gradient-button {background: linear-gradient(180deg, rgba(243,243,243,1) 21%, rgba(255,255,255,1) 51%, rgba(243,243,243,1) 74%);}
+.gradient-button:hover { background-position: top bottom;}
+.gradient-button.focus,.gradient-button:focus{box-shadow:none !important;} 
+
+
+.btn-danger{border-color:#d33035 !important;color:#fff !important; background-color:#d33035;}
+.btn-danger:hover,.btn-danger.focus,.btn-danger:focus{background-color:#2b3656; border-color:#2b3656 !important;color:#fff !important; box-shadow:none !important;}
+
+.btn.btn-lg{padding: 14px 50px;}
+
+/*****************************/
+.fw-light{font-weight:300 !important;}
+.fw-normal{font-weight:400 !important;}
+.fw-bold{font-weight:700 !important;}
+.fw-black{font-weight:900 !important;}
+
+.fs-30{font-size:30px !important;} .fs-38{font-size:38px !important;} .fs-25{font-size:25px !important;} .fs-15{font-size:15px !important;}
+
+.lh-14{line-height:1.4 !important;} .lh-17{line-height:0.7 !important;}
+
+.ls-20{letter-spacing:.020em !important;}
+
+.bg-light {background:#dde2e9 !important;}
+.bg-secondary {background:#121315 !important;}
+.bg-dark {background:#000 !important;}
+.bg-success {background:#dae9ec !important;}
+/*****************************/ 
+.text-secondary {color:#5c6878 !important;}
+.text-dark {color:#1c1c1c !important;}
+/*****************************/
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {line-height:1;}
+h1, .h1 {font-size:50px;}
+h2, .h2 {font-size:40px;}
+h3, .h3 {font-size:35px;}
+h4, .h4 {font-size:17px;}
+h5, .h5 {font-size:12px;}
+
+/*******************************************************************/
+input.form-control,input.form-control:focus {font-size: 13px; height: calc(2.5em + 1.2rem + 2px); box-shadow:none;font-family: 'Source Sans Pro', sans-serif;}
+select.form-control {font-size:13px; height:calc(1.5em + 1.2rem + 2px);}
+textarea.form-control {font-size:13px; resize:none;}
+textarea.form-control:not([rows]) {height:136px;}
+.form-control::-moz-placeholder {color:#272727; opacity: 1;}
+
+/**************************************************************/
+
+.MainBanner .carousel-indicators {z-index:999; bottom:-60px;}
+.MainBanner .carousel-indicators li {background-color:transparent; opacity:1;border-radius:50%; width:16px; height:16px; border:solid 1px #a2b5d1;} 
+.MainBanner .carousel-indicators .active {background-color:#a2b5d1 !important;width:16px; height:16px;}
+
+/****************************************************************/
+.Borderhd {line-height: 0.5;text-align: center;}
+.Borderhd span {display: inline-block;position: relative;  }
+.Borderhd span:before,.Borderhd span:after {content: "";position: absolute; border-bottom-color:#b8b8b8 !important; border-bottom:double; border-width:4px; top:8px;width:50%;}
+.Borderhd span:before {right: 100%;margin-right:45px;}
+.Borderhd span:after {left: 100%;margin-left:45px;}
+
+
+/***********************************************************************/
+ul.orange li {color: #3c3c3c;list-style: none;position: relative;}
+ul.orange li::before {color: #f69322; content: "\2022"; font-size:1.5em; position: absolute; top: -8px; left: -20px;}
+
+/********** Back To Top Button ***************************************************************************************************/
+#scroll {position:fixed; right:10px; bottom:10px; z-index:99999; cursor:pointer; width:45px; height:45px; text-align:center; line-height:43px; background:#000; color:#fff !important;}
+#scroll:hover {opacity:.7;}

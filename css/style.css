@@ -1,0 +1,130 @@
+/************************************************* Header ********************************************************************/
+#Header + main{margin-top:318px;}
+
+/********** Mainbanner **************************************************************************************************/
+.MainBanner .carousel-caption {z-index:99;display:flex;justify-content:center;align-items:center;margin:auto;left:0;bottom:45px;right:0;}
+.MainBanner .carousel-caption h1{color:#000 !important; display:inline; padding: 0px 15px 5px 15px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+50,fffcfc+100&0+0,0.42+50,0+100 */
+background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.42) 50%, rgba(255,252,252,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.42) 50%,rgba(255,252,252,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.42) 50%,rgba(255,252,252,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00fffcfc',GradientType=1 ); /* IE6-9 */
+
+
+}
+/********** Protect **************************************************************************************************/
+#Protect .bg-light{padding:24px 80px;}
+/********** Welcome **************************************************************************************************/
+#Welcome .bg-secondary{padding:35px 0px; margin-top:60px;} #Welcome a{color:#fff !important;}  #Welcome a:hover{color:#dde2e9 !important;}
+/********** Story **************************************************************************************************/
+#Story {color:#333333;} #Story p{font-size:20px;}  #Story .mrgn{margin-left: 45px;margin-right: 70px; margin-top:70px; margin-bottom:60px;}
+/********** Products **************************************************************************************************/
+#Products .bg-img {background:url(../images/product-bg.png) no-repeat center center; background-size:cover; min-height:605px;} #Products p{font-size:20px;} #Products .mrgn{width: 45%;margin-left: 60px;}
+
+
+#Technology .custom-border{border: 25px solid #fff;border-radius: 50%; width: 620px; position: absolute; left: -70px; top: -70px;}  #Technology .text-position{position: relative;bottom: -560px; line-height: 1.2;} #Technology .mt-6{margin-top: 78px;} #Technology .donation{margin-top:80px;} #Technology .fs-25{line-height: 1.2;} #Technology a:hover{color:#000;}
+/********** Icon **************************************************************************************************/
+#Icons .border-top {border-top: 1px solid #e9e9e9 !important;margin-bottom: 45px;}
+/************************************************* Footer ********************************************************************/
+#Footer{font-size:15px; line-height:2.3; color:#fff; font-family: 'Source Sans Pro', sans-serif;} #Footer a{font-size:15px; line-height:2.3; color:#fff;}
+#Footer .CopyText{font-size:13px;  color:#7e7e7e; letter-spacing:.040em;} #Footer a:hover{color:#dae9ec !important;} #Footer p{line-height:1.6;}
+#Footer .list-inline-item:not(:last-child) {margin-right:20px !important;}  #Footer .list-inline-item a{font-size:20px; color:#fff;}
+#Footer .text-dark{color:#000 !important;} #Footer a.text-dark:hover{color:#000 !important;}
+#Footer .input-group .form-control{background:transparent; border-bottom:1px solid #fff !important; border:0px; box-shadow:none; color:#fff; font-size:15px; height:30px; padding-left:0px; font-family: 'Source Sans Pro', sans-serif !important; border-radius:0px; padding-bottom:25px;} 
+#Footer .input-group .btn{background:transparent; padding:0px 0px; color:#fff; border:none !important; height:30px; border-bottom:1px solid #fff !important; border-radius:0px;  padding-bottom:31px;}
+#Footer .input-group .btn:hover{background:transparent; color:#dae9ec !important;}
+#Footer .form-control::placeholder{color:#fff;} #Footer .input-group .fa-lg{font-size:18px !important; color:#fff;}
+
+.Listing {padding:0px; margin:0px; list-style-type:none;}
+.Listing li{font-size:18px; color:#39393b; background:#efefef url(../images/tick.png) no-repeat 1.3em 0.8em; padding:14px 0 12px 60px; margin:0 0 1px; border-radius:0px; font-weight:500;}
+.Listing li a{color:#fff;} .Listing li a:hover{color:#000;}
+
+
+/*************************************************************************************************************/
+.container-new{max-width:1920px !important; padding-right:15px; padding-left:15px;margin-right: auto;margin-left: auto;}
+.container-fluid{max-width:1850px !important;}
+.container{max-width:1330px !important;}
+/* ============ desktop view ============ */
+@media all and (min-width: 1025px) {
+	.navbar .nav-item .dropdown-menu{ display:none;}
+	.navbar .nav-item:hover .nav-link{ color:#fff;}
+	.navbar .nav-item:hover .dropdown-menu{ display:block;}
+	.navbar .nav-item .dropdown-menu{ margin-top:0;}
+}	
+/* ============ desktop view .end// ============ */
+
+
+@media (min-width:992px) {
+#Header {top:0px; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; transition:0.5s;}
+.shrink {background:rgba(255,255,255,.95); box-shadow:0px 5px 12px rgba(0,0,0,.5); z-index:999;}
+.Logo img {max-height:241px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.shrink .Logo img {max-height:150px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.Logo{padding-top:10px; padding-bottom:33px;}  .shrink .Logo{padding-top:10px; padding-bottom:10px;} 
+
+
+
+}
+@media (min-width: 1920px) {#Technology .custom-border {width: 738px !important;} #Technology .text-position {bottom: -672px !important;}}
+
+@media (min-width: 1600px) {#Technology .custom-border {width: 655px;} #Technology .text-position {bottom: -590px;}
+
+}
+@media (min-width: 1200px) {.gx-6 {margin-left:-21px!important;margin-left:-21px!important;}
+.gx-6 div[class^="col"]{padding-right:21px!important;padding-left:21px!important;}#Story .custom-img img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	}
+.MainBanner .mask{position:absolute; top:-272px; right:0%; left:0%; z-index:99; background:url(../images/bnr-shadow.png) repeat-x top; min-height:281px;}
+}
+
+@media (min-width: 1300px) and (max-width: 1399.98px) {
+	#Technology .mt-6 {margin-top: 128px !important;}
+}
+
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {#Technology .custom-border {width: 525px;left: -60px;} #Technology .text-position {bottom: -475px;}#Story .mrgn {margin: 70px 15px 70px 30px;}
+
+
+}
+
+/*@include media-breakpoint-between(md, xl) { ... }*/
+@media (min-width: 991.98px) and (max-width: 1199.98px){.MainBanner .carousel-caption h1, .h1 {font-size: 50px; text-shadow: 12px 0px 22px rgba(0,0,0,.55);} #Protect .fs-30 {font-size: 25px !important;} #Protect .bg-light {padding: 24px 20px;}#Welcome .fs-38 {font-size: 30px !important;} h2, .h2 {font-size: 30px;}  #Story .mrgn {margin: 30px 15px 30px 30px;} #Story p {font-size: 17px;}	
+	#Story .custom-img img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	} #Products .mrgn {width: 53%;margin-left: 30px;} #Technology .custom-border {width: 425px;left: -50px;top: -36px;} #Technology .fs-25 {font-size: 16px !important;} #Technology .text-position {bottom: -396px;}}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {#Header{position:static; background:#e9e9e9 !important;} #Header + main{margin-top:0px;} #Header{padding-top:10px; padding-bottom:10px;} .Logo img{width:15%;} .MainBanner .carousel-caption{bottom:40px;}.MainBanner .carousel-caption h1, .h1 {font-size: 40px; text-shadow: 12px 0px 22px rgba(0,0,0,.55);} #Protect .fs-30 {font-size: 20px !important;} #Welcome .fs-38 {font-size: 30px !important;} h2, .h2 {font-size: 25px;}  #Story .mrgn {margin: 30px 15px 30px 30px;} #Story p {font-size: 17px;}	 #Protect .bg-light {padding: 24px 20px;}
+	#Story .custom-img img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	} #Technology .custom-border {width: 326px;left: -45px;top: -36px; border: 15px solid #fff;} #Technology .fs-25 {font-size: 16px !important;} #Technology .text-position {bottom: -310px;} #Story .mrgn{margin: 30px 15px;} h3, .h3 {font-size: 30px;} #Products .mrgn {width: 100%;margin-left: 0px;background: rgba(0,0,0,.9); padding:20px;} #Technology .donation {margin-top: 50px;} #Products p {font-size: 17px;}}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width:767.98px) {#Header{position:static;} #Header + main{margin-top:0px;} #Header{padding-top:10px; padding-bottom:10px;} .Logo img{width:15%;}.MainBanner .carousel-caption{bottom:0px; top:0px;} #Protect .bg-light {padding: 24px 20px;} .MainBanner .carousel-caption h1, .h1 {font-size: 30px; text-shadow: 12px 0px 22px rgba(0,0,0,.55); color:#fff !important;} #Protect .fs-30 {font-size: 20px !important;} #Welcome .fs-38 {font-size: 25px !important;} h2, .h2 {font-size: 22px;} 	.bg-secondary h2, .h2 {font-size: 20px;} #Story .mrgn {margin: 30px 15px 30px 30px;} #Story p {font-size: 17px;} 
+	#Story .custom-img img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	}  #Technology .custom-border {width: 270px;left: -38px;top: -36px; border: 15px solid #fff;} #Technology .fs-25 {font-size: 16px !important;} #Technology .text-position {bottom: -267px;} #Story .mrgn{margin: 30px 15px;} h3, .h3 {font-size: 25px;} #Products .mrgn {width: 100%;margin-left: 0px;background: rgba(0,0,0,.9); padding:20px;} #Technology .donation {margin-top: 50px;} #Products p {font-size: 17px;}
+}
+
+@media (max-width:575.98px) {#Protect .fs-30 {font-size: 20px !important;} #Protect .bg-light {padding: 24px 30px;} #Welcome h2.lh-17 {
+  line-height: 1 !important;} #Welcome .fs-38{line-height:1;} #Technology .custom-border {width: 100%; position:static; border: 0px solid #fff;} #Technology .mt-6 {margin-top: 25px;} #Technology .text-position {position: static; margin-top:25px;} 
+
+} 
